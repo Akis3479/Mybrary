@@ -24,4 +24,4 @@ db.once('open', () => console.log('Connected to database'))
 
 app.use('/', indexRouter);
 
-app.listen(process.env.PORT || 3000);
+app.listen(process.env.PORT || 3000, '0.0.0.0');
